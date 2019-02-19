@@ -1,1 +1,5 @@
-
+<% if @details %>
+  <ul>
+      <li><%= "#{@details['firstName']} #{@details['lastName']}" %></li>
+  </ul>
+<% end %>

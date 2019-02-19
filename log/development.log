@@ -1280,3 +1280,700 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 00:51:22 -0500
+
+
+Started GET "/" for ::1 at 2019-02-19 15:42:36 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 479ms (Views: 467.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:50:54 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:54:19 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:55:01 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:55:03 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:57:18 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:57:19 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:57:20 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:57:20 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:57:55 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:59:20 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBP3MPWWMBEVAE53SVLKOFEDDMS4WEHUV1VTJIU2TGPFZBZE&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=QX4KIPMCL533ZWHR30R3XF2F0HGLC4MFEEG2MFEE41WLG3CE" for ::1 at 2019-02-19 15:59:22 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"QX4KIPMCL533ZWHR30R3XF2F0HGLC4MFEEG2MFEE41WLG3CE"}
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+LoadError (dlopen(/Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle, 9): Library not loaded: /usr/local/opt/readline/lib/libreadline.7.dylib
+  Referenced from: /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle
+  Reason: image not found - /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle):
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (160.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (106.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (265.5ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:59:30 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBP3MPWWMBEVAE53SVLKOFEDDMS4WEHUV1VTJIU2TGPFZBZE&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=XRX4T3BXX50BISOHEVTTXCBNVO2Z0GRB2CK0W5UZW2X1WWDB" for ::1 at 2019-02-19 15:59:33 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"XRX4T3BXX50BISOHEVTTXCBNVO2Z0GRB2CK0W5UZW2X1WWDB"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+LoadError (dlopen(/Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle, 9): Library not loaded: /usr/local/opt/readline/lib/libreadline.7.dylib
+  Referenced from: /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle
+  Reason: image not found - /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle):
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (102.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (94.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (208.1ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:59:40 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBP3MPWWMBEVAE53SVLKOFEDDMS4WEHUV1VTJIU2TGPFZBZE&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MYSGMUPN0WW4XJXJG0PO5XHNAVX2RKO0V2VUQV41ISG3HIIN" for ::1 at 2019-02-19 15:59:43 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MYSGMUPN0WW4XJXJG0PO5XHNAVX2RKO0V2VUQV41ISG3HIIN"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 174ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:59:43 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBP3MPWWMBEVAE53SVLKOFEDDMS4WEHUV1VTJIU2TGPFZBZE&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=5SEUZXGE5KYIU1HSW2MEI5QQYMCCHS02BMSSEEDQXPOGQGU4" for ::1 at 2019-02-19 15:59:46 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"5SEUZXGE5KYIU1HSW2MEI5QQYMCCHS02BMSSEEDQXPOGQGU4"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 107ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:59:46 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBP3MPWWMBEVAE53SVLKOFEDDMS4WEHUV1VTJIU2TGPFZBZE&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=UME0FNLACFODZNH4KEHTXTG52S4WDHAKRA5NN2U13ADGEXHC" for ::1 at 2019-02-19 15:59:48 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"UME0FNLACFODZNH4KEHTXTG52S4WDHAKRA5NN2U13ADGEXHC"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 167ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 15:59:49 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBP3MPWWMBEVAE53SVLKOFEDDMS4WEHUV1VTJIU2TGPFZBZE&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:01:15 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBP3MPWWMBEVAE53SVLKOFEDDMS4WEHUV1VTJIU2TGPFZBZE&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=LQNI12DY0P3C2SSYA52ZF1SGHGN0FR3MDTBS31EJVFZRNCD4" for ::1 at 2019-02-19 16:01:17 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"LQNI12DY0P3C2SSYA52ZF1SGHGN0FR3MDTBS31EJVFZRNCD4"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 264ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:01:17 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 288ms (Views: 287.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:01:29 -0500
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 180ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (A JSON text must at least contain two octets!):
+  app/controllers/searches_controller.rb:38:in `friends'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (118.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (107.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (244.9ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:02:20 -0500
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 178ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (A JSON text must at least contain two octets!):
+  app/controllers/searches_controller.rb:38:in `friends'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (139.2ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (147.1ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (309.3ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:02:37 -0500
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+LoadError (dlopen(/Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle, 9): Library not loaded: /usr/local/opt/readline/lib/libreadline.7.dylib
+  Referenced from: /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle
+  Reason: image not found - /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle):
+  app/controllers/searches_controller.rb:33:in `friends'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (130.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (129.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (305.9ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:03:09 -0500
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+LoadError (dlopen(/Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle, 9): Library not loaded: /usr/local/opt/readline/lib/libreadline.7.dylib
+  Referenced from: /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle
+  Reason: image not found - /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle):
+  app/controllers/searches_controller.rb:33:in `friends'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (114.2ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (111.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (245.8ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:03:34 -0500
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 80ms (ActiveRecord: 0.0ms)
+
+LoadError (dlopen(/Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle, 9): Library not loaded: /usr/local/opt/readline/lib/libreadline.7.dylib
+  Referenced from: /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle
+  Reason: image not found - /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle):
+  app/controllers/searches_controller.rb:34:in `friends'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.0ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (210.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (149.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (340.2ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:03:47 -0500
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 0.0ms)
+
+LoadError (dlopen(/Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle, 9): Library not loaded: /usr/local/opt/readline/lib/libreadline.7.dylib
+  Referenced from: /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle
+  Reason: image not found - /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle):
+  app/controllers/searches_controller.rb:34:in `block in friends'
+  app/controllers/searches_controller.rb:33:in `friends'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.0ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (168.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (141.1ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.8ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (291.5ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:03:55 -0500
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 145ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (A JSON text must at least contain two octets!):
+  app/controllers/searches_controller.rb:38:in `friends'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (165.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (116.8ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (282.7ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:04:28 -0500
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 475ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (A JSON text must at least contain two octets!):
+  app/controllers/searches_controller.rb:38:in `friends'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (177.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (134.8ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (333.4ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:04:39 -0500
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 273ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (A JSON text must at least contain two octets!):
+  app/controllers/searches_controller.rb:38:in `friends'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (118.8ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (134.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.1ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (310.1ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:05:11 -0500
+
+SyntaxError (/Users/kody/Development/code/web-auth-readme-online-web-ft-102218/app/controllers/searches_controller.rb:41: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/searches_controller.rb:41: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.8ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (296.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (134.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (333.9ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:05:27 -0500
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+LoadError (dlopen(/Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle, 9): Library not loaded: /usr/local/opt/readline/lib/libreadline.7.dylib
+  Referenced from: /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle
+  Reason: image not found - /Users/kody/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/x86_64-darwin18/readline.bundle):
+  app/controllers/searches_controller.rb:33:in `friends'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (139.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (151.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (357.3ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:06:25 -0500
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 3140ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `size' for nil:NilClass):
+    1: <% if @friends.size > 0 %>
+    2:   <ul>
+    3:     <% @friends.each do |friend| %>
+    4:       <li><%= "#{friend['firstName']} #{friend['lastName']}" %></li>
+  app/views/searches/friends.html.erb:1:in `_app_views_searches_friends_html_erb__2543238333802295036_70339128952740'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (112.8ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (116.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (260.4ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:06:46 -0500
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 160ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (A JSON text must at least contain two octets!):
+  app/controllers/searches_controller.rb:38:in `friends'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (173.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (143.0ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (351.7ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:06:53 -0500
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 174922ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (A JSON text must at least contain two octets!):
+  app/controllers/searches_controller.rb:39:in `friends'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (104.2ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (116.2ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (241.1ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:09:50 -0500
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 146180ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/searches_controller.rb:39:in `friends'
+
+
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (93.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.0ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (82.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kody/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (190.1ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:12:19 -0500
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 726ms (Views: 247.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:14:10 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 449ms (Views: 389.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:14:17 -0500
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1281ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:14:28 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBP3MPWWMBEVAE53SVLKOFEDDMS4WEHUV1VTJIU2TGPFZBZE&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=1FOJZXF2VCPD5ULCQOYW22DU0REMR5HFAMJQ1LP0W0ETL34S" for ::1 at 2019-02-19 16:14:29 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1FOJZXF2VCPD5ULCQOYW22DU0REMR5HFAMJQ1LP0W0ETL34S"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 183ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:14:29 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:14:36 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBP3MPWWMBEVAE53SVLKOFEDDMS4WEHUV1VTJIU2TGPFZBZE&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=EPP20DN05CLKCYQEYSIN1NTLNVJO4UY0RDDGRBAWMVXN0YHE" for ::1 at 2019-02-19 16:14:37 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"EPP20DN05CLKCYQEYSIN1NTLNVJO4UY0RDDGRBAWMVXN0YHE"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 177ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:14:37 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:14:52 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBP3MPWWMBEVAE53SVLKOFEDDMS4WEHUV1VTJIU2TGPFZBZE&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=2C5QVZ04WFMYDLLIOCTHPF1NVJZ15SF1ZQABVNOYATEMVW2H" for ::1 at 2019-02-19 16:14:52 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"2C5QVZ04WFMYDLLIOCTHPF1NVJZ15SF1ZQABVNOYATEMVW2H"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 124ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:15:26 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:15:31 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:15:38 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBP3MPWWMBEVAE53SVLKOFEDDMS4WEHUV1VTJIU2TGPFZBZE&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=1BWI14SKWNZNSCOHDQGRP0YM2VJQGMMK55WK4R4KSKSPAKAV" for ::1 at 2019-02-19 16:15:38 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1BWI14SKWNZNSCOHDQGRP0YM2VJQGMMK55WK4R4KSKSPAKAV"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 187ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:15:38 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:15:55 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=GBP3MPWWMBEVAE53SVLKOFEDDMS4WEHUV1VTJIU2TGPFZBZE&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=XB2QXYEEQXGBAFYKWRSJ0BIL0EXTF1MUXQVJVIG3S3MKXCQI" for ::1 at 2019-02-19 16:16:16 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"XB2QXYEEQXGBAFYKWRSJ0BIL0EXTF1MUXQVJVIG3S3MKXCQI"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 189ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-19 16:16:17 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2019-02-19 16:16:17 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2019-02-19 16:16:17 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2019-02-19 16:16:17 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2019-02-19 16:16:17 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2019-02-19 16:16:17 -0500
+
+
+Started GET "/" for ::1 at 2019-02-19 16:16:20 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-02-19 16:16:21 -0500
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1170ms (Views: 21.6ms | ActiveRecord: 0.0ms)
